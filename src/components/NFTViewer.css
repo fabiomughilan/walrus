@@ -1,0 +1,50 @@
+/* src/components/NFTViewer.css */
+.nft-viewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .nft-viewer input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .nft-viewer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nft-viewer button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .nft-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .nft-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
